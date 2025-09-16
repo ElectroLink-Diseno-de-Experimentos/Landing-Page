@@ -1,0 +1,85 @@
+/* Encabezado principal */
+.sobre-nosotros-title {
+    color: #fff;
+    background: #1a3774;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+    letter-spacing: 1px;
+    border-radius: 0 0 32px 32px;
+    margin-bottom: 2rem;
+}
+
+/* Carrusel */
+.sobre-nosotros-carousel {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 4px 24px rgba(26, 55, 116, 0.08);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem auto;
+    max-width: 700px;
+    position: relative;
+}
+
+.sobre-nosotros-carousel .carousel-images img {
+    border-radius: 16px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sobre-nosotros-carousel-arrow {
+    background: #1a3774;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(26, 55, 116, 0.12);
+    transition: background 0.2s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sobre-nosotros-carousel-arrow:first-of-type {
+    left: -24px;
+}
+
+.sobre-nosotros-carousel-arrow:last-of-type {
+    right: -24px;
+}
+
+.sobre-nosotros-carousel-arrow:hover {
+    background: #294e9b;
+}
+
+/* Description */
+.sobre-nosotros-description {
+    text-align: center;
+    margin: 0 auto 2rem auto;
+    max-width: 700px;
+    font-size: 1.1rem;
+    color: #333;
+    background: #f7f9fc;
+    border-radius: 16px;
+    padding: 2rem 2rem 1.5rem 2rem;
+    box-shadow: 0 2px 12px rgba(26, 55, 116, 0.06);
+}
+
+.sobre-nosotros-description strong {
+    font-size: 2rem;
+    color: #1a3774;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 1rem;
+}
